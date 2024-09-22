@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col {
+    flex-basis: 45%;
+    margin: 20px;
+}
+
+.title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.inputBox {
+    margin-bottom: 20px;
+}
+
+.inputBox label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.inputBox input[type="text"],.inputBox input[type="number"],.inputBox select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.inputBox input[type="text"]:focus,.inputBox input[type="number"]:focus,.inputBox select:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex.inputBox {
+    flex-basis: 45%;
+    margin: 20px;
+}
+.submit{
+    margin-top: 75px;
+    margin-left: 20px;
+}
